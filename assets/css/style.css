@@ -27,7 +27,11 @@ h2 {
 
 
 
-/* Header */
+/* 
+================================
+          HEADER       
+================================ 
+*/
 header {
     width: 100%;
     height: auto;
@@ -97,7 +101,11 @@ header .container {
 }
 
 
-/* MAIN SHIZZ */
+/* 
+================================
+           MAIN CONTENT         
+================================ 
+*/
 .content {
     width: 960px;
     clear: both;
@@ -137,36 +145,69 @@ header .container {
     height: 200px;
 }
 
-/* Portfolio Page */
+/* 
+================================
+           PORTFOLIO        
+================================ 
+*/
 
-.box {
-    display: inline-block;
-	position: relative;
-	width: 270px;
-	height: 200px;
-}
-
-.project {
-    float: left;
-    position: relative;
-    top:-10px;
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
     width: 100%;
-}
-#project-portfolio {
-    position: static;
-    text-align: left;
-    width: 650px;
-    height: 20px;
-    top: 30px;
-    margin-left: 125px;
-    margin-bottom: 50px;
-            
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color:white;
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 50%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-}
-
-/* Contact Page */
+/* 
+================================
+           CONTACT       
+================================ 
+*/
 .contact {
-    width: 540px;
+    width: 100%;
 }
 
 .contact label {
@@ -191,10 +232,14 @@ header .container {
     padding: 16px 32px;
     font-size: 16px;
 }
-/* Sidebar */
+/* 
+================================
+           SIDEBAR        
+================================ 
+*/
 .sidebar {
     display: inline-block;
-    width: 190px;
+    width: 30%;
     padding: 40px;
     margin: 40px 0 0 30px;
     vertical-align: top;
@@ -224,7 +269,11 @@ header .container {
     
 }
 
-/* Footer */
+/* 
+================================
+           FOOTER        
+================================ 
+*/
 footer {
     position: absolute;
     left: 0;
