@@ -141,15 +141,15 @@ header .container {
 
 .box {
     display: inline-block;
-    width: 250px;
-    height: 100px;
-    margin: 20px;
+	position: relative;
+	width: 270px;
+	height: 200px;
 }
 
 .project {
     float: left;
     position: relative;
-    top:	-10px;
+    top:-10px;
     width: 100%;
 }
 #project-portfolio {
@@ -235,4 +235,6 @@ footer {
     font-size: 14px;
     color: #cccccc;
     background-color: #666666;
-    border-top: 7px solid #4aaaa5;x
+    border-top: 7px solid #4aaaa5;
+
+   
