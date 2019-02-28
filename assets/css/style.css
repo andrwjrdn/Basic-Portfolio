@@ -151,9 +151,6 @@ header .container {
 ================================ 
 */
 
-div.gallery {
-    border: 1px solid #ccc;
-  }
   
   div.gallery:hover {
     border: 1px solid #777;
@@ -169,6 +166,9 @@ div.gallery {
     text-align: center;
     background-color: #4aaaa5;
     color:white;
+    position:relative;
+    z-index: 1;
+    top: -60px;
     
   }
   
@@ -195,11 +195,7 @@ div.gallery {
     }
   }
   
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
 
 /* 
 ================================
